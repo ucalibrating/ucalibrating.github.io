@@ -40,13 +40,13 @@ html {
 .timeline-content h1 {
   font-weight: 500;
   font-size: 25px;
-  color: aqua;
+  color: #abe0ff;
   line-height: 30px;
   margin-bottom: 10px;
 }
 .timeline-content p {
   font-size: 16px;
-  color: aqua;
+  color: #abe0ff;
   line-height: 30px;
   font-weight: 300;
 }
@@ -107,6 +107,6 @@ html {
     top: -30px;
   }
   .timeline ul li:hover::after {
-    background-color: aqua;
+    background-color: #abe0ff;
   }
 }
