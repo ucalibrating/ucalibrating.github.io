@@ -52,11 +52,12 @@ html {
 }
 .timeline-content .date {
   font-size: 12px;
-  color: lightgreen;
+  color: #73ff73;
   font-weight: 300;
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
+
 @media only screen and (min-width: 768px) {
   .timeline:before {
     content: "";
