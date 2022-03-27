@@ -30,9 +30,10 @@ html {
 .timeline ul li {
   padding: 20px;
   background-color: #1e1f22;
-  color: white;
+  color: green;
   border-radius: 10px;
   margin-bottom: 20px;
+  /*list-style-image: url("img/_logo.png"); */ 
 }
 .timeline ul li:last-child {
   margin-bottom: 0;
@@ -58,6 +59,12 @@ html {
   letter-spacing: 2px;
 }
 
+.timeline-content img {
+  margin-top: 10px;
+  height: 100px;
+  width: auto;
+}
+
 @media only screen and (min-width: 768px) {
   .timeline:before {
     content: "";
@@ -80,12 +87,25 @@ html {
     transform: translateX(-30px);
     border-radius: 20px 0px 20px 20px;
   }
+	
+  .timeline ul li:nth-child(odd) img {
+    float: right;
+    clear: left;
+  }
+
   .timeline ul li:nth-child(even) {
     float: right;
     clear: left;
     transform: translateX(30px);
     border-radius: 0px 20px 20px 20px;
   }
+
+
+  .timeline ul li:nth-child(even) img {
+    float: left;
+    clear: right;
+  }
+
   .timeline ul li::after {
     content: "";
     position: absolute;
